@@ -34,7 +34,7 @@ const SendMessage = ({ scroll }) => {
         type="text"
         placeholder="Message"
       />
-      <button className="w-[20%] bg-green-500" type="submit">
+      <button className="w-[20%] bg-blue-500" type="submit">
         Send
       </button>
     </form>

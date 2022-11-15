@@ -8,7 +8,7 @@ import LogOut from "./logout";
 const Navbar = () => {
   const [user] = useAuthState(Auth);
   return (
-    <div className="bg-gray-800 h-20 flex justify-between items-center p-4">
+    <div className="bg-blue-500 h-20 flex justify-between items-center p-4">
       <h1 className="text-white text-3xl">Chat App</h1>
       {user ? <LogOut /> : <SignIn />}
     </div>
