@@ -2,13 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Message from "./message";
 import SendMessage from "./sendMessage";
 import { db } from "../firebase";
-import {
-  collection,
-  onSnapshot,
-  orderBy,
-  query,
-  querySnapshot
-} from "firebase/firestore";
+import { collection, onSnapshot, orderBy, query } from "firebase/firestore";
 
 const Chat = () => {
   const [messages, setMessages] = useState([]);
